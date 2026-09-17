@@ -16,7 +16,7 @@ observations. 983 cards across two categories (Plants, Animals).
 
 ## Regenerating
 
-Requires Node.js 20+ and network access to iNaturalist (the app itself never
+Requires Node.js 22+ (for running the TypeScript pipeline directly) and network access to iNaturalist (the app itself never
 talks to iNaturalist — only this pipeline does).
 
 ```bash
