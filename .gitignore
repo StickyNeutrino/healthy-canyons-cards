@@ -1,0 +1,5 @@
+node_modules/
+data/api-cache/
+data/fonts/
+data/raw-photos/
+.DS_Store

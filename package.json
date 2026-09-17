@@ -1,0 +1,21 @@
+{
+  "name": "deck-healthy-canyons",
+  "private": true,
+  "license": "AGPL-3.0-or-later",
+  "type": "module",
+  "description": "Healthy Canyons flashcard deck: species from the NFWF San Diego canyon surveys, with CC-licensed iNaturalist photos",
+  "scripts": {
+    "generate": "node generation/generate.ts all",
+    "generate:parse": "node generation/generate.ts parse",
+    "generate:fetch": "node generation/generate.ts fetch",
+    "generate:render": "node generation/generate.ts render",
+    "generate:manifest": "node generation/generate.ts manifest"
+  },
+  "devDependencies": {
+    "@fontsource/inter": "^5.3.0",
+    "@resvg/resvg-js": "^2.6.2",
+    "sharp": "^0.35.4",
+    "wawoff2": "^2.0.1",
+    "xlsx": "^0.18.5"
+  }
+}

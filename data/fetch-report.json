@@ -1,0 +1,1248 @@
+{
+  "generatedAt": "2026-09-17T04:32:36.476Z",
+  "total": 1230,
+  "counts": {
+    "ok": 983,
+    "no-taxon": 10,
+    "no-photos": 10,
+    "skipped": 0,
+    "error": 227
+  },
+  "failures": [
+    {
+      "cardName": "Western Prickly-Pear",
+      "sciName": "Opuntia xoccidentalis",
+      "status": "no-taxon"
+    },
+    {
+      "cardName": "San Diego Monkey Flower",
+      "sciName": "Diplacus xaustralis",
+      "status": "no-taxon"
+    },
+    {
+      "cardName": "Torrey's Hybrid Oak",
+      "sciName": "Quercus ×acutidens",
+      "status": "no-taxon"
+    },
+    {
+      "cardName": "Cholla",
+      "sciName": "Cylindropuntia sp. nov.",
+      "status": "no-taxon"
+    },
+    {
+      "cardName": "Orange Ice Plant",
+      "sciName": "Lampranthus glaucoides",
+      "status": "error: Error: HTTP 503"
+    },
+    {
+      "cardName": "Society-Garlic",
+      "sciName": "Tulbaghia violacea",
+      "status": "error: Error: HTTP 503"
+    },
+    {
+      "cardName": "Spectacular Brightfig",
+      "sciName": "Lampranthus spectabilis",
+      "status": "error: Error: HTTP 503"
+    },
+    {
+      "cardName": "Shiny Lomatium",
+      "sciName": "Lomatium lucidum",
+      "status": "error: Error: HTTP 503"
+    },
+    {
+      "cardName": "Garden Asparagus",
+      "sciName": "Asparagus officinalis ssp. officinalis",
+      "status": "error: Error: HTTP 503"
+    },
+    {
+      "cardName": "Pineapple-Weed",
+      "sciName": "Amblyopappus pusillus",
+      "status": "error: Error: HTTP 503"
+    },
+    {
+      "cardName": "Weak-Leaf Bur-Sage",
+      "sciName": "Ambrosia confertiflora",
+      "status": "error: Error: HTTP 503"
+    },
+    {
+      "cardName": "Field-Marigold",
+      "sciName": "Calendula arvensis",
+      "status": "error: Error: HTTP 503"
+    },
+    {
+      "cardName": "Slender Thistle",
+      "sciName": "Carduus tenuiflorus",
+      "status": "error: Error: HTTP 503"
+    },
+    {
+      "cardName": "Southern Tarplant",
+      "sciName": "Centromadia parryi ssp. australis",
+      "status": "error: Error: HTTP 503"
+    },
+    {
+      "cardName": "Del Mar Mesa Sand-Aster",
+      "sciName": "Corethrogyne filaginifolia var. linifolia",
+      "status": "error: Error: HTTP 503"
+    },
+    {
+      "cardName": "Sawtooth Goldenbush",
+      "sciName": "Hazardia squarrosa var. squarrosa",
+      "status": "error: Error: HTTP 503"
+    },
+    {
+      "cardName": "False Goldenaster",
+      "sciName": "Heterotheca sessiliflora ssp. sessiliflora",
+      "status": "error: Error: HTTP 503"
+    },
+    {
+      "cardName": "San Diego Goldenbush",
+      "sciName": "Isocoma menziesii var. sedoides",
+      "status": "error: Error: HTTP 503"
+    },
+    {
+      "cardName": "Salty Susan, Fleshy Jaumea",
+      "sciName": "Jaumea carnosa",
+      "status": "error: Error: HTTP 503"
+    },
+    {
+      "cardName": "Coulter's Salt-Marsh Daisy",
+      "sciName": "Lasthenia glabrata ssp. coulteri",
+      "status": "error: Error: HTTP 503"
+    },
+    {
+      "cardName": "Scale-Broom",
+      "sciName": "Lepidospartum squamatum",
+      "status": "error: Error: HTTP 503"
+    },
+    {
+      "cardName": "San Diego Sea-Dahlia",
+      "sciName": "Leptosyne maritima",
+      "status": "error: Error: HTTP 503"
+    },
+    {
+      "cardName": "Small-Flower Microseris",
+      "sciName": "Microseris douglasii ssp. platycarpha",
+      "status": "error: Error: HTTP 503"
+    },
+    {
+      "cardName": "Emory's Rock Daisy",
+      "sciName": "Perityle emoryi",
+      "status": "error: Error: HTTP 503"
+    },
+    {
+      "cardName": "Petite-licorice",
+      "sciName": "Plecostachys serpyllifolia",
+      "status": "error: Error: HTTP 503"
+    },
+    {
+      "cardName": "Cleveland's Cryptantha (Cryptantha clevelandii var. clevelandii)",
+      "sciName": "Cryptantha clevelandii var. clevelandii",
+      "status": "error: Error: HTTP 503"
+    },
+    {
+      "cardName": "Winged Pectocarya",
+      "sciName": "Pectocarya penicillata",
+      "status": "error: Error: HTTP 503"
+    },
+    {
+      "cardName": "Western Tansy-Mustard (Descurainia pinnata ssp. halictorum)",
+      "sciName": "Descurainia pinnata ssp. halictorum",
+      "status": "error: Error: HTTP 503"
+    },
+    {
+      "cardName": "Desert Whitlow-Grass",
+      "sciName": "Draba cuneifolia var. integrifolia",
+      "status": "error: Error: HTTP 503"
+    },
+    {
+      "cardName": "Coast Wallflower",
+      "sciName": "Erysimum ammophilum",
+      "status": "error: Error: HTTP 503"
+    },
+    {
+      "cardName": "Broad-Leaf Peppergrass",
+      "sciName": "Lepidium latifolium",
+      "status": "error: Error: HTTP 503"
+    },
+    {
+      "cardName": "Common Stock",
+      "sciName": "Matthiola incana",
+      "status": "error: Error: HTTP 503"
+    },
+    {
+      "cardName": "Hedge Mustard",
+      "sciName": "Sisymbrium officinale",
+      "status": "error: Error: HTTP 503"
+    },
+    {
+      "cardName": "Mission Canyon Bluecup",
+      "sciName": "Githopsis diffusa ssp. filicaulis",
+      "status": "error: Error: HTTP 503"
+    },
+    {
+      "cardName": "California Polycarp",
+      "sciName": "Polycarpon depressum",
+      "status": "error: Error: HTTP 503"
+    },
+    {
+      "cardName": "Parish's Glasswort",
+      "sciName": "Arthroceras subterminale",
+      "status": "error: Error: HTTP 503"
+    },
+    {
+      "cardName": "Mojave Silverscale",
+      "sciName": "Atriplex argentea var. expansa",
+      "status": "error: Error: HTTP 503"
+    },
+    {
+      "cardName": "Vizcaino Saltbush",
+      "sciName": "Atriplex julacea",
+      "status": "error: Error: HTTP 503"
+    },
+    {
+      "cardName": "Magdalena Saltbush",
+      "sciName": "Atriplex magdalenae",
+      "status": "error: Error: HTTP 503"
+    },
+    {
+      "cardName": "Five-Hook Bassia",
+      "sciName": "Bassia hyssopifolia",
+      "status": "error: Error: HTTP 503"
+    },
+    {
+      "cardName": "Sea Beet",
+      "sciName": "Beta vulgaris ssp. maritima",
+      "status": "error: Error: HTTP 503"
+    },
+    {
+      "cardName": "Tasmanian Goosefoot",
+      "sciName": "Dysphania pumilio",
+      "status": "error: Error: HTTP 503"
+    },
+    {
+      "cardName": "Pacific Pickleweed",
+      "sciName": "Salicornia pacifica",
+      "status": "error: Error: HTTP 503"
+    },
+    {
+      "cardName": "Bush Seepweed",
+      "sciName": "Suaeda nigra",
+      "status": "error: Error: HTTP 503"
+    },
+    {
+      "cardName": "Woolly Sea-Blite",
+      "sciName": "Suaeda taxifolia",
+      "status": "error: Error: HTTP 503"
+    },
+    {
+      "cardName": "Alkali Weed",
+      "sciName": "Cressa truxillensis",
+      "status": "error: Error: HTTP 503"
+    },
+    {
+      "cardName": "Large-Flower Saltmarsh Dodder",
+      "sciName": "Cuscuta pacifica var. pacifica",
+      "status": "error: Error: HTTP 503"
+    },
+    {
+      "cardName": "Short-Leaf Dudleya",
+      "sciName": "Dudleya brevifolia",
+      "status": "error: Error: HTTP 503"
+    },
+    {
+      "cardName": "Mother Of Thousands",
+      "sciName": "Kalanchoe daigremontiana",
+      "status": "error: Error: HTTP 503"
+    },
+    {
+      "cardName": "Watermelon",
+      "sciName": "Citrullus lanatus",
+      "status": "error: Error: HTTP 503"
+    },
+    {
+      "cardName": "San Diego Sedge",
+      "sciName": "Carex spissa",
+      "status": "error: Error: HTTP 503"
+    },
+    {
+      "cardName": "Short-Leaf Flatsedge",
+      "sciName": "Kyllinga brevifolia",
+      "status": "error: Error: HTTP 503"
+    },
+    {
+      "cardName": "House Holly Fern",
+      "sciName": "Cyrtomium falcatum",
+      "status": "error: Error: HTTP 503"
+    },
+    {
+      "cardName": "Chinese Persimmon",
+      "sciName": "Diospyros kaki",
+      "status": "error: Error: HTTP 503"
+    },
+    {
+      "cardName": "Big-Berry Manzanita",
+      "sciName": "Arctostaphylos glauca",
+      "status": "error: Error: HTTP 503"
+    },
+    {
+      "cardName": "California Croton",
+      "sciName": "Croton californicus",
+      "status": "error: Error: HTTP 503"
+    },
+    {
+      "cardName": "Cliff Spurge",
+      "sciName": "Euphorbia misera",
+      "status": "error: Error: HTTP 503"
+    },
+    {
+      "cardName": "Alkali Lotus",
+      "sciName": "Acmispon maritimus var. maritimus",
+      "status": "error: Error: HTTP 503"
+    },
+    {
+      "cardName": "Calf Lotus",
+      "sciName": "Acmispon wrangelianus",
+      "status": "error: Error: HTTP 503"
+    },
+    {
+      "cardName": "Yellow Bush Lupine",
+      "sciName": "Lupinus arboreus",
+      "status": "error: Error: HTTP 503"
+    },
+    {
+      "cardName": "Black Locust",
+      "sciName": "Robinia pseudoacacia",
+      "status": "error: Error: HTTP 503"
+    },
+    {
+      "cardName": "NULL (Quercus dumosa X engelmannii)",
+      "sciName": "Quercus dumosa X engelmannii",
+      "status": "error: Error: HTTP 503"
+    },
+    {
+      "cardName": "Palmer's Frankenia",
+      "sciName": "Frankenia palmeri",
+      "status": "error: Error: HTTP 503"
+    },
+    {
+      "cardName": "Carpet Geranium",
+      "sciName": "Geranium incanum",
+      "status": "error: Error: HTTP 503"
+    },
+    {
+      "cardName": "White-Flower Currant",
+      "sciName": "Ribes indecorum",
+      "status": "error: Error: HTTP 503"
+    },
+    {
+      "cardName": "Menzies's Baby Blue Eyes",
+      "sciName": "Nemophila menziesii var. menziesii",
+      "status": "error: Error: HTTP 503"
+    },
+    {
+      "cardName": "South Coast Branching Phacelia",
+      "sciName": "Phacelia ramosissima var. austrolitoralis",
+      "status": "error: Error: HTTP 503"
+    },
+    {
+      "cardName": "Blue Flies",
+      "sciName": "Aristea ecklonii",
+      "status": "error: Error: HTTP 503"
+    },
+    {
+      "cardName": "Fortnight Lily",
+      "sciName": "Dietes grandiflora",
+      "status": "error: Error: HTTP 503"
+    },
+    {
+      "cardName": "Northern California Black Walnut",
+      "sciName": "Juglans hindsii",
+      "status": "error: Error: HTTP 503"
+    },
+    {
+      "cardName": "Basket Rush",
+      "sciName": "Juncus textilis",
+      "status": "error: Error: HTTP 503"
+    },
+    {
+      "cardName": "Australian Rush",
+      "sciName": "Juncus usitatus",
+      "status": "error: Error: HTTP 503"
+    },
+    {
+      "cardName": "Iris-Leaf Rush",
+      "sciName": "Juncus xiphioides",
+      "status": "error: Error: HTTP 503"
+    },
+    {
+      "cardName": "Hummingbird Sage",
+      "sciName": "Salvia spathacea",
+      "status": "error: Error: HTTP 503"
+    },
+    {
+      "cardName": "Alkali Mallow",
+      "sciName": "Malvella leprosa",
+      "status": "error: Error: HTTP 503"
+    },
+    {
+      "cardName": "Common Calyptridium",
+      "sciName": "Calyptridium monandrum",
+      "status": "error: Error: HTTP 503"
+    },
+    {
+      "cardName": "Red-Cap Gum",
+      "sciName": "Eucalyptus erythrocorys",
+      "status": "error: Error: HTTP 503"
+    },
+    {
+      "cardName": "Showy Honey-Myrtle, Pink Melaleuca",
+      "sciName": "Melaleuca nesophila",
+      "status": "error: Error: HTTP 503"
+    },
+    {
+      "cardName": "Scrub Cherry (Syzygium australe)",
+      "sciName": "Syzygium australe",
+      "status": "error: Error: HTTP 503"
+    },
+    {
+      "cardName": "Beach Sand-Verbena",
+      "sciName": "Abronia umbellata var. umbellata",
+      "status": "error: Error: HTTP 503"
+    },
+    {
+      "cardName": "Bougainvillea",
+      "sciName": "Bougainvillea spectabilis",
+      "status": "error: Error: HTTP 503"
+    },
+    {
+      "cardName": "Beautiful Evening-Primrose",
+      "sciName": "Oenothera speciosa",
+      "status": "error: Error: HTTP 503"
+    },
+    {
+      "cardName": "Cooper's Rein Orchid",
+      "sciName": "Piperia cooperi",
+      "status": "error: Error: HTTP 503"
+    },
+    {
+      "cardName": "Parish's Broom-Rape",
+      "sciName": "Aphyllon parishii ssp. parishii",
+      "status": "error: Error: HTTP 503"
+    },
+    {
+      "cardName": "Cream Cups",
+      "sciName": "Platystemon californicus",
+      "status": "error: Error: HTTP 503"
+    },
+    {
+      "cardName": "Southern Bush Monkeyflower",
+      "sciName": "Diplacus longiflorus",
+      "status": "error: Error: HTTP 503"
+    },
+    {
+      "cardName": "Torrey Pine",
+      "sciName": "Pinus torreyana ssp. torreyana",
+      "status": "error: Error: HTTP 503"
+    },
+    {
+      "cardName": "Japanese Pittosporum",
+      "sciName": "Pittosporum tobira",
+      "status": "error: Error: HTTP 503"
+    },
+    {
+      "cardName": "Coulter's Snapdragon",
+      "sciName": "Antirrhinum coulterianum",
+      "status": "error: Error: HTTP 503"
+    },
+    {
+      "cardName": "Water Speedwell",
+      "sciName": "Veronica anagallis-aquatica",
+      "status": "error: Error: HTTP 503"
+    },
+    {
+      "cardName": "Pacific Bent Grass",
+      "sciName": "Agrostis avenacea",
+      "status": "error: Error: HTTP 503"
+    },
+    {
+      "cardName": "Silver European Hairgrass",
+      "sciName": "Aira caryophyllea",
+      "status": "error: Error: HTTP 503"
+    },
+    {
+      "cardName": "San Diego Reedgrass",
+      "sciName": "Calamagrostis koelerioides",
+      "status": "error: Error: HTTP 503"
+    },
+    {
+      "cardName": "Perennial Veldt Grass",
+      "sciName": "Ehrharta calycina",
+      "status": "error: Error: HTTP 503"
+    },
+    {
+      "cardName": "Blue Wildrye",
+      "sciName": "Elymus glaucus ssp. glaucus",
+      "status": "error: Error: HTTP 503"
+    },
+    {
+      "cardName": "Hybrid Ryegrass",
+      "sciName": "Lolium xboucheanum",
+      "status": "no-taxon"
+    },
+    {
+      "cardName": "Northern Barley",
+      "sciName": "Hordeum brachyantherum ssp. brachyantherum",
+      "status": "error: Error: HTTP 503"
+    },
+    {
+      "cardName": "Junegrass",
+      "sciName": "Koeleria macrantha",
+      "status": "error: Error: HTTP 503"
+    },
+    {
+      "cardName": "Mediterranean Beard Grass",
+      "sciName": "Polypogon maritimus",
+      "status": "error: Error: HTTP 503"
+    },
+    {
+      "cardName": "Smutgrass",
+      "sciName": "Sporobolus indicus",
+      "status": "error: Error: HTTP 503"
+    },
+    {
+      "cardName": "Holly-Leaf Skunkweed",
+      "sciName": "Navarretia atractyloides",
+      "status": "error: Error: HTTP 503"
+    },
+    {
+      "cardName": "Orcutt's Spineflower",
+      "sciName": "Chorizanthe orcuttiana",
+      "status": "error: Error: HTTP 503"
+    },
+    {
+      "cardName": "Turkish Rugging",
+      "sciName": "Chorizanthe staticoides",
+      "status": "error: Error: HTTP 503"
+    },
+    {
+      "cardName": "Toothed Willow Dock",
+      "sciName": "Rumex californicus",
+      "status": "error: Error: HTTP 503"
+    },
+    {
+      "cardName": "Toothed Dock",
+      "sciName": "Rumex dentatus",
+      "status": "error: Error: HTTP 503"
+    },
+    {
+      "cardName": "Narrow-Leaf Dock",
+      "sciName": "Rumex stenophyllus",
+      "status": "error: Error: HTTP 503"
+    },
+    {
+      "cardName": "Fennel-Leaf Pondweed",
+      "sciName": "Stuckenia pectinata",
+      "status": "error: Error: HTTP 503"
+    },
+    {
+      "cardName": "Hairy-Fruit Buttercup",
+      "sciName": "Ranunculus hebecarpus",
+      "status": "error: Error: HTTP 503"
+    },
+    {
+      "cardName": "Holly-Leaf Redberry",
+      "sciName": "Rhamnus ilicifolia",
+      "status": "error: Error: HTTP 503"
+    },
+    {
+      "cardName": "Parney Cotoneaster",
+      "sciName": "Cotoneaster coriaceus",
+      "status": "error: Error: HTTP 503"
+    },
+    {
+      "cardName": "Naio, Hawaii Myoporum",
+      "sciName": "Myoporum sandwicense",
+      "status": "error: Error: HTTP 503"
+    },
+    {
+      "cardName": "Common Desert Thorn",
+      "sciName": "Lycium brevipes var. brevipes",
+      "status": "error: Error: HTTP 503"
+    },
+    {
+      "cardName": "Lantana",
+      "sciName": "Lantana xstrigocamara",
+      "status": "no-taxon"
+    },
+    {
+      "cardName": "Nevin's Barberry",
+      "sciName": "Alloberberis nevinii",
+      "status": "no-taxon"
+    },
+    {
+      "cardName": "Garden Geranium",
+      "sciName": "Pelargonium ×hortorum",
+      "status": "no-taxon"
+    },
+    {
+      "cardName": "Hohenacker's Tamarisk",
+      "sciName": "Tamarix hohenackeri",
+      "status": "error: Error: HTTP 503"
+    },
+    {
+      "cardName": "NULL (Cyperus erythrorrhizos)",
+      "sciName": "Cyperus erythrorrhizos",
+      "status": "no-taxon"
+    },
+    {
+      "cardName": "Ground spider (Drassyllus proclesis)",
+      "sciName": "Drassyllus proclesis",
+      "status": "no-photos"
+    },
+    {
+      "cardName": "Ground spider (Marinarozelotes jaxartensis)",
+      "sciName": "Marinarozelotes jaxartensis",
+      "status": "no-photos"
+    },
+    {
+      "cardName": "Dwarf sheet spider",
+      "sciName": "Neoantistea santana",
+      "status": "no-photos"
+    },
+    {
+      "cardName": "Goblin spider (Opopaea concolor)",
+      "sciName": "Opopaea concolor",
+      "status": "no-photos"
+    },
+    {
+      "cardName": "Sheet weaver spider (Spirembolus praelongus)",
+      "sciName": "Spirembolus praelongus",
+      "status": "no-photos"
+    },
+    {
+      "cardName": "Sheet weaver spider (Spirembolus redondo)",
+      "sciName": "Spirembolus redondo",
+      "status": "no-photos"
+    },
+    {
+      "cardName": "Araneae (Tivyna moaba)",
+      "sciName": "Tivyna moaba",
+      "status": "no-photos"
+    },
+    {
+      "cardName": "Big-Leaf Mistletoe",
+      "sciName": "Phoradendron leucarpum ssp. macrophyllum",
+      "status": "error: Error: HTTP 503"
+    },
+    {
+      "cardName": "Crab spider (Xysticus iviei)",
+      "sciName": "Xysticus iviei",
+      "status": "no-photos"
+    },
+    {
+      "cardName": "Ground spider (Zelotes gabriel)",
+      "sciName": "Zelotes gabriel",
+      "status": "no-photos"
+    },
+    {
+      "cardName": "Ground spider (Zelotes gynethus)",
+      "sciName": "Zelotes gynethus",
+      "status": "no-photos"
+    },
+    {
+      "cardName": "Ground spider (Drassyllus saphes)",
+      "sciName": "Drassyllus saphes",
+      "status": "error: Error: HTTP 503"
+    },
+    {
+      "cardName": "Minute Brown Scavenger Beetle",
+      "sciName": "Revelieria california",
+      "status": "no-taxon"
+    },
+    {
+      "cardName": "Ground spider (Urozelotes rusticus)",
+      "sciName": "Urozelotes rusticus",
+      "status": "error: Error: HTTP 503"
+    },
+    {
+      "cardName": "Little Bear",
+      "sciName": "Paracotalpa ursina",
+      "status": "error: Error: HTTP 503"
+    },
+    {
+      "cardName": "Marsh Wren",
+      "sciName": "Cistothorus palustris",
+      "status": "error: Error: HTTP 503"
+    },
+    {
+      "cardName": "Bewick's Wren",
+      "sciName": "Thryomanes bewickii",
+      "status": "error: Error: HTTP 503"
+    },
+    {
+      "cardName": "House Wren",
+      "sciName": "Troglodytes aedon",
+      "status": "error: Error: HTTP 503"
+    },
+    {
+      "cardName": "Blue-gray Gnatcatcher",
+      "sciName": "Polioptila caerulea",
+      "status": "error: Error: HTTP 503"
+    },
+    {
+      "cardName": "California Gnatcatcher",
+      "sciName": "Polioptila californica californica",
+      "status": "error: Error: HTTP 503"
+    },
+    {
+      "cardName": "Oak Titmouse",
+      "sciName": "Baeolophus inornatus",
+      "status": "error: Error: HTTP 503"
+    },
+    {
+      "cardName": "Bushtit",
+      "sciName": "Psaltriparus minimus",
+      "status": "error: Error: HTTP 503"
+    },
+    {
+      "cardName": "Tree Swallow",
+      "sciName": "Tachycineta bicolor",
+      "status": "error: Error: HTTP 503"
+    },
+    {
+      "cardName": "Violet-green Swallow",
+      "sciName": "Tachycineta thalassina",
+      "status": "error: Error: HTTP 503"
+    },
+    {
+      "cardName": "N. Rough-winged Swallow",
+      "sciName": "Stelgidopteryx serripennis",
+      "status": "error: Error: HTTP 503"
+    },
+    {
+      "cardName": "Barn Swallow",
+      "sciName": "Hirundo rustica",
+      "status": "error: Error: HTTP 503"
+    },
+    {
+      "cardName": "Cliff Swallow",
+      "sciName": "Petrochelidon pyrrhonota",
+      "status": "error: Error: HTTP 503"
+    },
+    {
+      "cardName": "Ruby-crowned Kinglet",
+      "sciName": "Regulus calendula",
+      "status": "error: Error: HTTP 503"
+    },
+    {
+      "cardName": "Wrentit",
+      "sciName": "Chamaea fasciata",
+      "status": "error: Error: HTTP 503"
+    },
+    {
+      "cardName": "Horned Lark",
+      "sciName": "Eremophila alpestris",
+      "status": "error: Error: HTTP 503"
+    },
+    {
+      "cardName": "American Pipit",
+      "sciName": "Anthus rubescens",
+      "status": "error: Error: HTTP 503"
+    },
+    {
+      "cardName": "Pine Siskin",
+      "sciName": "Carduelis pinus",
+      "status": "error: Error: HTTP 503"
+    },
+    {
+      "cardName": "American Goldfinch",
+      "sciName": "Carduelis tristis",
+      "status": "error: Error: HTTP 503"
+    },
+    {
+      "cardName": "Lesser Goldfinch",
+      "sciName": "Spinus psaltria",
+      "status": "error: Error: HTTP 503"
+    },
+    {
+      "cardName": "Lawrence's Goldfinch",
+      "sciName": "Carduelis lawrencei",
+      "status": "error: Error: HTTP 503"
+    },
+    {
+      "cardName": "Purple Finch",
+      "sciName": "Carpodacus purpureus",
+      "status": "error: Error: HTTP 503"
+    },
+    {
+      "cardName": "House Finch",
+      "sciName": "Haemorhous mexicanus",
+      "status": "error: Error: HTTP 503"
+    },
+    {
+      "cardName": "Red Crossbill",
+      "sciName": "Loxia curvirostra",
+      "status": "error: Error: HTTP 503"
+    },
+    {
+      "cardName": "Fox Sparrow",
+      "sciName": "Passerella iliaca",
+      "status": "error: Error: HTTP 503"
+    },
+    {
+      "cardName": "Song Sparrow",
+      "sciName": "Melospiza melodia",
+      "status": "error: Error: HTTP 503"
+    },
+    {
+      "cardName": "Lincoln's Sparrow",
+      "sciName": "Melospiza lincolnii",
+      "status": "error: Error: HTTP 503"
+    },
+    {
+      "cardName": "White-crowned Sparrow",
+      "sciName": "Zonotrichia leucophrys",
+      "status": "error: Error: HTTP 503"
+    },
+    {
+      "cardName": "Golden-crowned Sparrow",
+      "sciName": "Zonotrichia atricapilla",
+      "status": "error: Error: HTTP 503"
+    },
+    {
+      "cardName": "Dark-eyed Junco",
+      "sciName": "Junco hyemalis",
+      "status": "error: Error: HTTP 503"
+    },
+    {
+      "cardName": "Savannah Sparrow",
+      "sciName": "Passerculus sandwichensis",
+      "status": "error: Error: HTTP 503"
+    },
+    {
+      "cardName": "Grasshopper Sparrow",
+      "sciName": "Ammodramus savannarum",
+      "status": "error: Error: HTTP 503"
+    },
+    {
+      "cardName": "Chipping Sparrow",
+      "sciName": "Spizella passerina",
+      "status": "error: Error: HTTP 503"
+    },
+    {
+      "cardName": "Brewer's Sparrow",
+      "sciName": "Spizella breweri",
+      "status": "error: Error: HTTP 503"
+    },
+    {
+      "cardName": "Black-chinned Sparrow",
+      "sciName": "Spizella atrogularis",
+      "status": "error: Error: HTTP 503"
+    },
+    {
+      "cardName": "Vesper Sparrow",
+      "sciName": "Pooecetes gramineus",
+      "status": "error: Error: HTTP 503"
+    },
+    {
+      "cardName": "Lark Sparrow",
+      "sciName": "Chondestes grammacus",
+      "status": "error: Error: HTTP 503"
+    },
+    {
+      "cardName": "Black-throated Sparrow",
+      "sciName": "Amphispiza bilineata",
+      "status": "error: Error: HTTP 503"
+    },
+    {
+      "cardName": "Sage Sparrow",
+      "sciName": "Amphispiza belli",
+      "status": "error: Error: HTTP 503"
+    },
+    {
+      "cardName": "Rufous-crowned Sparrow",
+      "sciName": "Aimophila ruficeps",
+      "status": "error: Error: HTTP 503"
+    },
+    {
+      "cardName": "Green-tailed Towhee",
+      "sciName": "Pipilo chlorurus",
+      "status": "error: Error: HTTP 503"
+    },
+    {
+      "cardName": "Spotted Towhee",
+      "sciName": "Pipilo maculatus",
+      "status": "error: Error: HTTP 503"
+    },
+    {
+      "cardName": "California Towhee",
+      "sciName": "Melozone crissalis",
+      "status": "error: Error: HTTP 503"
+    },
+    {
+      "cardName": "Orange-crowned Warbler",
+      "sciName": "Leiothlypis celata",
+      "status": "error: Error: HTTP 503"
+    },
+    {
+      "cardName": "Nashville Warbler",
+      "sciName": "Vermivora ruficapilla",
+      "status": "error: Error: HTTP 503"
+    },
+    {
+      "cardName": "Yellow Warbler",
+      "sciName": "Dendroica petechia",
+      "status": "error: Error: HTTP 503"
+    },
+    {
+      "cardName": "Yellow-rumped Warbler",
+      "sciName": "Setophaga coronata",
+      "status": "error: Error: HTTP 503"
+    },
+    {
+      "cardName": "Black-throated Gray Warbler",
+      "sciName": "Dendroica nigrescens",
+      "status": "error: Error: HTTP 503"
+    },
+    {
+      "cardName": "Townsend's Warbler",
+      "sciName": "Dendroica townsendi",
+      "status": "error: Error: HTTP 503"
+    },
+    {
+      "cardName": "Hermit Warbler",
+      "sciName": "Dendroica occidentalis",
+      "status": "error: Error: HTTP 503"
+    },
+    {
+      "cardName": "Black-and-white Warbler",
+      "sciName": "Mniotilta varia",
+      "status": "error: Error: HTTP 503"
+    },
+    {
+      "cardName": "Northern Waterthrush",
+      "sciName": "Seiurus noveboracensis",
+      "status": "error: Error: HTTP 503"
+    },
+    {
+      "cardName": "Macgillivray's Warbler",
+      "sciName": "Oporornis tolmiei",
+      "status": "error: Error: HTTP 503"
+    },
+    {
+      "cardName": "Common Yellowthroat",
+      "sciName": "Geothlypis trichas",
+      "status": "error: Error: HTTP 503"
+    },
+    {
+      "cardName": "Wilson's Warbler",
+      "sciName": "Wilsonia pusilla",
+      "status": "error: Error: HTTP 503"
+    },
+    {
+      "cardName": "Yellow-breasted Chat",
+      "sciName": "Icteria virens",
+      "status": "error: Error: HTTP 503"
+    },
+    {
+      "cardName": "Summer Tanager",
+      "sciName": "Piranga rubra",
+      "status": "error: Error: HTTP 503"
+    },
+    {
+      "cardName": "Western Tanager",
+      "sciName": "Piranga ludoviciana",
+      "status": "error: Error: HTTP 503"
+    },
+    {
+      "cardName": "Black-headed Grosbeak",
+      "sciName": "Pheucticus melanocephalus",
+      "status": "error: Error: HTTP 503"
+    },
+    {
+      "cardName": "Blue Grosbeak",
+      "sciName": "Passerina caerulea",
+      "status": "error: Error: HTTP 503"
+    },
+    {
+      "cardName": "Indigo Bunting",
+      "sciName": "Passerina cyanea",
+      "status": "error: Error: HTTP 503"
+    },
+    {
+      "cardName": "Lazuli Bunting",
+      "sciName": "Passerina amoena",
+      "status": "error: Error: HTTP 503"
+    },
+    {
+      "cardName": "Hooded Oriole",
+      "sciName": "Icterus cucullatus",
+      "status": "error: Error: HTTP 503"
+    },
+    {
+      "cardName": "Bullock's Oriole",
+      "sciName": "Icterus bullockii",
+      "status": "error: Error: HTTP 503"
+    },
+    {
+      "cardName": "Red-winged Blackbird",
+      "sciName": "Agelaius phoeniceus",
+      "status": "error: Error: HTTP 503"
+    },
+    {
+      "cardName": "Tricolored Blackbird",
+      "sciName": "Agelaius tricolor",
+      "status": "error: Error: HTTP 503"
+    },
+    {
+      "cardName": "Western Meadowlark",
+      "sciName": "Sturnella neglecta",
+      "status": "error: Error: HTTP 503"
+    },
+    {
+      "cardName": "Great-tailed Grackle",
+      "sciName": "Quiscalus mexicanus",
+      "status": "error: Error: HTTP 503"
+    },
+    {
+      "cardName": "Brewer's Blackbird",
+      "sciName": "Euphagus cyanocephalus",
+      "status": "error: Error: HTTP 503"
+    },
+    {
+      "cardName": "Brown-headed Cowbird",
+      "sciName": "Molothrus ater",
+      "status": "error: Error: HTTP 503"
+    },
+    {
+      "cardName": "Scaly-breasted Munia",
+      "sciName": "Lonchura punctulata",
+      "status": "error: Error: HTTP 503"
+    },
+    {
+      "cardName": "Red-masked Parakeet",
+      "sciName": "Aratinga erythrogenys",
+      "status": "error: Error: HTTP 503"
+    },
+    {
+      "cardName": "Swinhoe's White-eye",
+      "sciName": "Zosterops simplex",
+      "status": "error: Error: HTTP 503"
+    },
+    {
+      "cardName": "House Sparrow",
+      "sciName": "Passer domesticus",
+      "status": "error: Error: HTTP 503"
+    },
+    {
+      "cardName": "European Starling",
+      "sciName": "Sturnus vulgaris",
+      "status": "error: Error: HTTP 503"
+    },
+    {
+      "cardName": "Big-eared Woodrat",
+      "sciName": "Neotoma macrotis",
+      "status": "error: Error: HTTP 503"
+    },
+    {
+      "cardName": "Bobcat",
+      "sciName": "Lynx rufus",
+      "status": "error: Error: HTTP 503"
+    },
+    {
+      "cardName": "Brush Rabbit",
+      "sciName": "Sylvilagus bachmani",
+      "status": "error: Error: HTTP 503"
+    },
+    {
+      "cardName": "Bryant's Woodrat",
+      "sciName": "Neotoma bryanti",
+      "status": "error: Error: HTTP 503"
+    },
+    {
+      "cardName": "Cactus Mouse",
+      "sciName": "Peromyscus eremicus",
+      "status": "error: Error: HTTP 503"
+    },
+    {
+      "cardName": "California Ground Squirrel",
+      "sciName": "Otospermophilus beecheyi",
+      "status": "error: Error: HTTP 503"
+    },
+    {
+      "cardName": "California Mouse",
+      "sciName": "Peromyscus californicus",
+      "status": "error: Error: HTTP 503"
+    },
+    {
+      "cardName": "California Pocket Mouse",
+      "sciName": "Chaetodipus fallax fallax",
+      "status": "error: Error: HTTP 503"
+    },
+    {
+      "cardName": "California Vole",
+      "sciName": "Microtus californicus",
+      "status": "error: Error: HTTP 503"
+    },
+    {
+      "cardName": "Botta's Pocket Gopher",
+      "sciName": "Thomomys bottae",
+      "status": "error: Error: HTTP 503"
+    },
+    {
+      "cardName": "San Diego Black-tailed Jackrabbit",
+      "sciName": "Lepus californicus bennettii",
+      "status": "error: Error: HTTP 503"
+    },
+    {
+      "cardName": "Coyote",
+      "sciName": "Canis latrans",
+      "status": "error: Error: HTTP 503"
+    },
+    {
+      "cardName": "Desert Cottontail",
+      "sciName": "Sylvilagus audubonii",
+      "status": "error: Error: HTTP 503"
+    },
+    {
+      "cardName": "Domestic Cat",
+      "sciName": "Felis catus",
+      "status": "error: Error: HTTP 503"
+    },
+    {
+      "cardName": "Dulzura Pocket Mouse",
+      "sciName": "Chaetodipus californicus femoralis",
+      "status": "error: Error: HTTP 503"
+    },
+    {
+      "cardName": "Dulzura Kangaroo Rat",
+      "sciName": "Dipodomys simulans",
+      "status": "error: Error: HTTP 503"
+    },
+    {
+      "cardName": "Eastern Fox Squirrel",
+      "sciName": "Sciurus niger",
+      "status": "error: Error: HTTP 503"
+    },
+    {
+      "cardName": "Grey Fox",
+      "sciName": "Urocyon cinereoargenteus",
+      "status": "error: Error: HTTP 503"
+    },
+    {
+      "cardName": "House Mouse",
+      "sciName": "Mus musculus",
+      "status": "error: Error: HTTP 503"
+    },
+    {
+      "cardName": "Black Rat",
+      "sciName": "Rattus rattus",
+      "status": "error: Error: HTTP 503"
+    },
+    {
+      "cardName": "Mule Deer",
+      "sciName": "Odocoileus hemionus",
+      "status": "error: Error: HTTP 503"
+    },
+    {
+      "cardName": "North American Deer Mouse",
+      "sciName": "Peromyscus maniculatus",
+      "status": "error: Error: HTTP 503"
+    },
+    {
+      "cardName": "Puma",
+      "sciName": "Puma concolor",
+      "status": "error: Error: HTTP 503"
+    },
+    {
+      "cardName": "Raccoon",
+      "sciName": "Procyon lotor",
+      "status": "error: Error: HTTP 503"
+    },
+    {
+      "cardName": "Striped Skunk",
+      "sciName": "Mephitis mephitis",
+      "status": "error: Error: HTTP 503"
+    },
+    {
+      "cardName": "Virginia Opossum",
+      "sciName": "Didelphis virginiana",
+      "status": "error: Error: HTTP 503"
+    },
+    {
+      "cardName": "Western Harvest Mouse",
+      "sciName": "Reithrodontomys megalotis",
+      "status": "error: Error: HTTP 503"
+    },
+    {
+      "cardName": "Western Spotted Skunk",
+      "sciName": "Spilogale gracilis",
+      "status": "error: Error: HTTP 503"
+    },
+    {
+      "cardName": "Mexican Free-tailed Bat",
+      "sciName": "Tadarida brasiliensis",
+      "status": "error: Error: HTTP 503"
+    },
+    {
+      "cardName": "Western Red Bat",
+      "sciName": "Lasiurus frantzii",
+      "status": "error: Error: HTTP 503"
+    },
+    {
+      "cardName": "Yuma Myotis",
+      "sciName": "Myotis yumanensis",
+      "status": "error: Error: HTTP 503"
+    },
+    {
+      "cardName": "Canyon Bat",
+      "sciName": "Parastrellus hesperus",
+      "status": "error: Error: HTTP 503"
+    },
+    {
+      "cardName": "Hoary Bat",
+      "sciName": "Lasiurus cinereus",
+      "status": "error: Error: HTTP 503"
+    },
+    {
+      "cardName": "Big Brown Bat",
+      "sciName": "Eptesicus fuscus",
+      "status": "error: Error: HTTP 503"
+    },
+    {
+      "cardName": "California Myotis",
+      "sciName": "Myotis californicus",
+      "status": "error: Error: HTTP 503"
+    },
+    {
+      "cardName": "Western Yellow Bat",
+      "sciName": "Lasiurus xanthinus",
+      "status": "error: Error: HTTP 503"
+    },
+    {
+      "cardName": "Western Small-Footed Myotis",
+      "sciName": "Myotis ciliolabrum",
+      "status": "error: Error: HTTP 503"
+    },
+    {
+      "cardName": "Pocketed Free-Tailed Bat",
+      "sciName": "Nyctinomops femorosaccus",
+      "status": "error: Error: HTTP 503"
+    },
+    {
+      "cardName": "Big Free-Tailed Bat",
+      "sciName": "Nyctinomops macrotis",
+      "status": "error: Error: HTTP 503"
+    },
+    {
+      "cardName": "Slider",
+      "sciName": "Trachemys scripta",
+      "status": "error: Error: HTTP 503"
+    },
+    {
+      "cardName": "Western Threadsnake",
+      "sciName": "Rena humilis",
+      "status": "error: Error: HTTP 503"
+    }
+  ]
+}

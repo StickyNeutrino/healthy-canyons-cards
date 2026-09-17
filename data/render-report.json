@@ -1,0 +1,1246 @@
+{
+  "generatedAt": "2026-09-17T05:25:25.939Z",
+  "counts": {
+    "rendered": 983,
+    "skipped": 247,
+    "partialPhotos": 0,
+    "errors": 0
+  },
+  "skipped": [
+    {
+      "cardName": "Western Prickly-Pear",
+      "sciName": "Opuntia xoccidentalis",
+      "reason": "no-taxon"
+    },
+    {
+      "cardName": "San Diego Monkey Flower",
+      "sciName": "Diplacus xaustralis",
+      "reason": "no-taxon"
+    },
+    {
+      "cardName": "Torrey's Hybrid Oak",
+      "sciName": "Quercus ×acutidens",
+      "reason": "no-taxon"
+    },
+    {
+      "cardName": "Cholla",
+      "sciName": "Cylindropuntia sp. nov.",
+      "reason": "no-taxon"
+    },
+    {
+      "cardName": "Orange Ice Plant",
+      "sciName": "Lampranthus glaucoides",
+      "reason": "no fetched data"
+    },
+    {
+      "cardName": "Spectacular Brightfig",
+      "sciName": "Lampranthus spectabilis",
+      "reason": "no fetched data"
+    },
+    {
+      "cardName": "Society-Garlic",
+      "sciName": "Tulbaghia violacea",
+      "reason": "no fetched data"
+    },
+    {
+      "cardName": "Shiny Lomatium",
+      "sciName": "Lomatium lucidum",
+      "reason": "no fetched data"
+    },
+    {
+      "cardName": "Garden Asparagus",
+      "sciName": "Asparagus officinalis ssp. officinalis",
+      "reason": "no fetched data"
+    },
+    {
+      "cardName": "Pineapple-Weed",
+      "sciName": "Amblyopappus pusillus",
+      "reason": "no fetched data"
+    },
+    {
+      "cardName": "Weak-Leaf Bur-Sage",
+      "sciName": "Ambrosia confertiflora",
+      "reason": "no fetched data"
+    },
+    {
+      "cardName": "Field-Marigold",
+      "sciName": "Calendula arvensis",
+      "reason": "no fetched data"
+    },
+    {
+      "cardName": "Slender Thistle",
+      "sciName": "Carduus tenuiflorus",
+      "reason": "no fetched data"
+    },
+    {
+      "cardName": "Southern Tarplant",
+      "sciName": "Centromadia parryi ssp. australis",
+      "reason": "no fetched data"
+    },
+    {
+      "cardName": "Del Mar Mesa Sand-Aster",
+      "sciName": "Corethrogyne filaginifolia var. linifolia",
+      "reason": "no fetched data"
+    },
+    {
+      "cardName": "Sawtooth Goldenbush",
+      "sciName": "Hazardia squarrosa var. squarrosa",
+      "reason": "no fetched data"
+    },
+    {
+      "cardName": "False Goldenaster",
+      "sciName": "Heterotheca sessiliflora ssp. sessiliflora",
+      "reason": "no fetched data"
+    },
+    {
+      "cardName": "San Diego Goldenbush",
+      "sciName": "Isocoma menziesii var. sedoides",
+      "reason": "no fetched data"
+    },
+    {
+      "cardName": "Salty Susan, Fleshy Jaumea",
+      "sciName": "Jaumea carnosa",
+      "reason": "no fetched data"
+    },
+    {
+      "cardName": "Coulter's Salt-Marsh Daisy",
+      "sciName": "Lasthenia glabrata ssp. coulteri",
+      "reason": "no fetched data"
+    },
+    {
+      "cardName": "Scale-Broom",
+      "sciName": "Lepidospartum squamatum",
+      "reason": "no fetched data"
+    },
+    {
+      "cardName": "San Diego Sea-Dahlia",
+      "sciName": "Leptosyne maritima",
+      "reason": "no fetched data"
+    },
+    {
+      "cardName": "Small-Flower Microseris",
+      "sciName": "Microseris douglasii ssp. platycarpha",
+      "reason": "no fetched data"
+    },
+    {
+      "cardName": "Emory's Rock Daisy",
+      "sciName": "Perityle emoryi",
+      "reason": "no fetched data"
+    },
+    {
+      "cardName": "Petite-licorice",
+      "sciName": "Plecostachys serpyllifolia",
+      "reason": "no fetched data"
+    },
+    {
+      "cardName": "Cleveland's Cryptantha (Cryptantha clevelandii var. clevelandii)",
+      "sciName": "Cryptantha clevelandii var. clevelandii",
+      "reason": "no fetched data"
+    },
+    {
+      "cardName": "Winged Pectocarya",
+      "sciName": "Pectocarya penicillata",
+      "reason": "no fetched data"
+    },
+    {
+      "cardName": "Western Tansy-Mustard (Descurainia pinnata ssp. halictorum)",
+      "sciName": "Descurainia pinnata ssp. halictorum",
+      "reason": "no fetched data"
+    },
+    {
+      "cardName": "Desert Whitlow-Grass",
+      "sciName": "Draba cuneifolia var. integrifolia",
+      "reason": "no fetched data"
+    },
+    {
+      "cardName": "Coast Wallflower",
+      "sciName": "Erysimum ammophilum",
+      "reason": "no fetched data"
+    },
+    {
+      "cardName": "Broad-Leaf Peppergrass",
+      "sciName": "Lepidium latifolium",
+      "reason": "no fetched data"
+    },
+    {
+      "cardName": "Common Stock",
+      "sciName": "Matthiola incana",
+      "reason": "no fetched data"
+    },
+    {
+      "cardName": "Hedge Mustard",
+      "sciName": "Sisymbrium officinale",
+      "reason": "no fetched data"
+    },
+    {
+      "cardName": "Mission Canyon Bluecup",
+      "sciName": "Githopsis diffusa ssp. filicaulis",
+      "reason": "no fetched data"
+    },
+    {
+      "cardName": "California Polycarp",
+      "sciName": "Polycarpon depressum",
+      "reason": "no fetched data"
+    },
+    {
+      "cardName": "Parish's Glasswort",
+      "sciName": "Arthroceras subterminale",
+      "reason": "no fetched data"
+    },
+    {
+      "cardName": "Mojave Silverscale",
+      "sciName": "Atriplex argentea var. expansa",
+      "reason": "no fetched data"
+    },
+    {
+      "cardName": "Vizcaino Saltbush",
+      "sciName": "Atriplex julacea",
+      "reason": "no fetched data"
+    },
+    {
+      "cardName": "Magdalena Saltbush",
+      "sciName": "Atriplex magdalenae",
+      "reason": "no fetched data"
+    },
+    {
+      "cardName": "Five-Hook Bassia",
+      "sciName": "Bassia hyssopifolia",
+      "reason": "no fetched data"
+    },
+    {
+      "cardName": "Sea Beet",
+      "sciName": "Beta vulgaris ssp. maritima",
+      "reason": "no fetched data"
+    },
+    {
+      "cardName": "Tasmanian Goosefoot",
+      "sciName": "Dysphania pumilio",
+      "reason": "no fetched data"
+    },
+    {
+      "cardName": "Pacific Pickleweed",
+      "sciName": "Salicornia pacifica",
+      "reason": "no fetched data"
+    },
+    {
+      "cardName": "Bush Seepweed",
+      "sciName": "Suaeda nigra",
+      "reason": "no fetched data"
+    },
+    {
+      "cardName": "Woolly Sea-Blite",
+      "sciName": "Suaeda taxifolia",
+      "reason": "no fetched data"
+    },
+    {
+      "cardName": "Alkali Weed",
+      "sciName": "Cressa truxillensis",
+      "reason": "no fetched data"
+    },
+    {
+      "cardName": "Large-Flower Saltmarsh Dodder",
+      "sciName": "Cuscuta pacifica var. pacifica",
+      "reason": "no fetched data"
+    },
+    {
+      "cardName": "Short-Leaf Dudleya",
+      "sciName": "Dudleya brevifolia",
+      "reason": "no fetched data"
+    },
+    {
+      "cardName": "Mother Of Thousands",
+      "sciName": "Kalanchoe daigremontiana",
+      "reason": "no fetched data"
+    },
+    {
+      "cardName": "Watermelon",
+      "sciName": "Citrullus lanatus",
+      "reason": "no fetched data"
+    },
+    {
+      "cardName": "San Diego Sedge",
+      "sciName": "Carex spissa",
+      "reason": "no fetched data"
+    },
+    {
+      "cardName": "Short-Leaf Flatsedge",
+      "sciName": "Kyllinga brevifolia",
+      "reason": "no fetched data"
+    },
+    {
+      "cardName": "House Holly Fern",
+      "sciName": "Cyrtomium falcatum",
+      "reason": "no fetched data"
+    },
+    {
+      "cardName": "Chinese Persimmon",
+      "sciName": "Diospyros kaki",
+      "reason": "no fetched data"
+    },
+    {
+      "cardName": "Big-Berry Manzanita",
+      "sciName": "Arctostaphylos glauca",
+      "reason": "no fetched data"
+    },
+    {
+      "cardName": "California Croton",
+      "sciName": "Croton californicus",
+      "reason": "no fetched data"
+    },
+    {
+      "cardName": "Cliff Spurge",
+      "sciName": "Euphorbia misera",
+      "reason": "no fetched data"
+    },
+    {
+      "cardName": "Alkali Lotus",
+      "sciName": "Acmispon maritimus var. maritimus",
+      "reason": "no fetched data"
+    },
+    {
+      "cardName": "Calf Lotus",
+      "sciName": "Acmispon wrangelianus",
+      "reason": "no fetched data"
+    },
+    {
+      "cardName": "Yellow Bush Lupine",
+      "sciName": "Lupinus arboreus",
+      "reason": "no fetched data"
+    },
+    {
+      "cardName": "Black Locust",
+      "sciName": "Robinia pseudoacacia",
+      "reason": "no fetched data"
+    },
+    {
+      "cardName": "NULL (Quercus dumosa X engelmannii)",
+      "sciName": "Quercus dumosa X engelmannii",
+      "reason": "no fetched data"
+    },
+    {
+      "cardName": "Palmer's Frankenia",
+      "sciName": "Frankenia palmeri",
+      "reason": "no fetched data"
+    },
+    {
+      "cardName": "Carpet Geranium",
+      "sciName": "Geranium incanum",
+      "reason": "no fetched data"
+    },
+    {
+      "cardName": "White-Flower Currant",
+      "sciName": "Ribes indecorum",
+      "reason": "no fetched data"
+    },
+    {
+      "cardName": "Menzies's Baby Blue Eyes",
+      "sciName": "Nemophila menziesii var. menziesii",
+      "reason": "no fetched data"
+    },
+    {
+      "cardName": "South Coast Branching Phacelia",
+      "sciName": "Phacelia ramosissima var. austrolitoralis",
+      "reason": "no fetched data"
+    },
+    {
+      "cardName": "Blue Flies",
+      "sciName": "Aristea ecklonii",
+      "reason": "no fetched data"
+    },
+    {
+      "cardName": "Fortnight Lily",
+      "sciName": "Dietes grandiflora",
+      "reason": "no fetched data"
+    },
+    {
+      "cardName": "Northern California Black Walnut",
+      "sciName": "Juglans hindsii",
+      "reason": "no fetched data"
+    },
+    {
+      "cardName": "Basket Rush",
+      "sciName": "Juncus textilis",
+      "reason": "no fetched data"
+    },
+    {
+      "cardName": "Australian Rush",
+      "sciName": "Juncus usitatus",
+      "reason": "no fetched data"
+    },
+    {
+      "cardName": "Iris-Leaf Rush",
+      "sciName": "Juncus xiphioides",
+      "reason": "no fetched data"
+    },
+    {
+      "cardName": "Hummingbird Sage",
+      "sciName": "Salvia spathacea",
+      "reason": "no fetched data"
+    },
+    {
+      "cardName": "Alkali Mallow",
+      "sciName": "Malvella leprosa",
+      "reason": "no fetched data"
+    },
+    {
+      "cardName": "Common Calyptridium",
+      "sciName": "Calyptridium monandrum",
+      "reason": "no fetched data"
+    },
+    {
+      "cardName": "Red-Cap Gum",
+      "sciName": "Eucalyptus erythrocorys",
+      "reason": "no fetched data"
+    },
+    {
+      "cardName": "Showy Honey-Myrtle, Pink Melaleuca",
+      "sciName": "Melaleuca nesophila",
+      "reason": "no fetched data"
+    },
+    {
+      "cardName": "Scrub Cherry (Syzygium australe)",
+      "sciName": "Syzygium australe",
+      "reason": "no fetched data"
+    },
+    {
+      "cardName": "Beach Sand-Verbena",
+      "sciName": "Abronia umbellata var. umbellata",
+      "reason": "no fetched data"
+    },
+    {
+      "cardName": "Bougainvillea",
+      "sciName": "Bougainvillea spectabilis",
+      "reason": "no fetched data"
+    },
+    {
+      "cardName": "Beautiful Evening-Primrose",
+      "sciName": "Oenothera speciosa",
+      "reason": "no fetched data"
+    },
+    {
+      "cardName": "Cooper's Rein Orchid",
+      "sciName": "Piperia cooperi",
+      "reason": "no fetched data"
+    },
+    {
+      "cardName": "Parish's Broom-Rape",
+      "sciName": "Aphyllon parishii ssp. parishii",
+      "reason": "no fetched data"
+    },
+    {
+      "cardName": "Cream Cups",
+      "sciName": "Platystemon californicus",
+      "reason": "no fetched data"
+    },
+    {
+      "cardName": "Southern Bush Monkeyflower",
+      "sciName": "Diplacus longiflorus",
+      "reason": "no fetched data"
+    },
+    {
+      "cardName": "Torrey Pine",
+      "sciName": "Pinus torreyana ssp. torreyana",
+      "reason": "no fetched data"
+    },
+    {
+      "cardName": "Japanese Pittosporum",
+      "sciName": "Pittosporum tobira",
+      "reason": "no fetched data"
+    },
+    {
+      "cardName": "Coulter's Snapdragon",
+      "sciName": "Antirrhinum coulterianum",
+      "reason": "no fetched data"
+    },
+    {
+      "cardName": "Water Speedwell",
+      "sciName": "Veronica anagallis-aquatica",
+      "reason": "no fetched data"
+    },
+    {
+      "cardName": "Pacific Bent Grass",
+      "sciName": "Agrostis avenacea",
+      "reason": "no fetched data"
+    },
+    {
+      "cardName": "Silver European Hairgrass",
+      "sciName": "Aira caryophyllea",
+      "reason": "no fetched data"
+    },
+    {
+      "cardName": "San Diego Reedgrass",
+      "sciName": "Calamagrostis koelerioides",
+      "reason": "no fetched data"
+    },
+    {
+      "cardName": "Perennial Veldt Grass",
+      "sciName": "Ehrharta calycina",
+      "reason": "no fetched data"
+    },
+    {
+      "cardName": "Blue Wildrye",
+      "sciName": "Elymus glaucus ssp. glaucus",
+      "reason": "no fetched data"
+    },
+    {
+      "cardName": "Northern Barley",
+      "sciName": "Hordeum brachyantherum ssp. brachyantherum",
+      "reason": "no fetched data"
+    },
+    {
+      "cardName": "Junegrass",
+      "sciName": "Koeleria macrantha",
+      "reason": "no fetched data"
+    },
+    {
+      "cardName": "Hybrid Ryegrass",
+      "sciName": "Lolium xboucheanum",
+      "reason": "no-taxon"
+    },
+    {
+      "cardName": "Mediterranean Beard Grass",
+      "sciName": "Polypogon maritimus",
+      "reason": "no fetched data"
+    },
+    {
+      "cardName": "Smutgrass",
+      "sciName": "Sporobolus indicus",
+      "reason": "no fetched data"
+    },
+    {
+      "cardName": "Holly-Leaf Skunkweed",
+      "sciName": "Navarretia atractyloides",
+      "reason": "no fetched data"
+    },
+    {
+      "cardName": "Orcutt's Spineflower",
+      "sciName": "Chorizanthe orcuttiana",
+      "reason": "no fetched data"
+    },
+    {
+      "cardName": "Turkish Rugging",
+      "sciName": "Chorizanthe staticoides",
+      "reason": "no fetched data"
+    },
+    {
+      "cardName": "Toothed Willow Dock",
+      "sciName": "Rumex californicus",
+      "reason": "no fetched data"
+    },
+    {
+      "cardName": "Toothed Dock",
+      "sciName": "Rumex dentatus",
+      "reason": "no fetched data"
+    },
+    {
+      "cardName": "Narrow-Leaf Dock",
+      "sciName": "Rumex stenophyllus",
+      "reason": "no fetched data"
+    },
+    {
+      "cardName": "Fennel-Leaf Pondweed",
+      "sciName": "Stuckenia pectinata",
+      "reason": "no fetched data"
+    },
+    {
+      "cardName": "Hairy-Fruit Buttercup",
+      "sciName": "Ranunculus hebecarpus",
+      "reason": "no fetched data"
+    },
+    {
+      "cardName": "Holly-Leaf Redberry",
+      "sciName": "Rhamnus ilicifolia",
+      "reason": "no fetched data"
+    },
+    {
+      "cardName": "Parney Cotoneaster",
+      "sciName": "Cotoneaster coriaceus",
+      "reason": "no fetched data"
+    },
+    {
+      "cardName": "Naio, Hawaii Myoporum",
+      "sciName": "Myoporum sandwicense",
+      "reason": "no fetched data"
+    },
+    {
+      "cardName": "Common Desert Thorn",
+      "sciName": "Lycium brevipes var. brevipes",
+      "reason": "no fetched data"
+    },
+    {
+      "cardName": "Hohenacker's Tamarisk",
+      "sciName": "Tamarix hohenackeri",
+      "reason": "no fetched data"
+    },
+    {
+      "cardName": "Big-Leaf Mistletoe",
+      "sciName": "Phoradendron leucarpum ssp. macrophyllum",
+      "reason": "no fetched data"
+    },
+    {
+      "cardName": "Lantana",
+      "sciName": "Lantana xstrigocamara",
+      "reason": "no-taxon"
+    },
+    {
+      "cardName": "Nevin's Barberry",
+      "sciName": "Alloberberis nevinii",
+      "reason": "no-taxon"
+    },
+    {
+      "cardName": "Garden Geranium",
+      "sciName": "Pelargonium ×hortorum",
+      "reason": "no-taxon"
+    },
+    {
+      "cardName": "NULL (Cyperus erythrorrhizos)",
+      "sciName": "Cyperus erythrorrhizos",
+      "reason": "no-taxon"
+    },
+    {
+      "cardName": "Ground spider (Drassyllus proclesis)",
+      "sciName": "Drassyllus proclesis",
+      "reason": "no-photos"
+    },
+    {
+      "cardName": "Ground spider (Drassyllus saphes)",
+      "sciName": "Drassyllus saphes",
+      "reason": "no fetched data"
+    },
+    {
+      "cardName": "Ground spider (Marinarozelotes jaxartensis)",
+      "sciName": "Marinarozelotes jaxartensis",
+      "reason": "no-photos"
+    },
+    {
+      "cardName": "Dwarf sheet spider",
+      "sciName": "Neoantistea santana",
+      "reason": "no-photos"
+    },
+    {
+      "cardName": "Goblin spider (Opopaea concolor)",
+      "sciName": "Opopaea concolor",
+      "reason": "no-photos"
+    },
+    {
+      "cardName": "Sheet weaver spider (Spirembolus praelongus)",
+      "sciName": "Spirembolus praelongus",
+      "reason": "no-photos"
+    },
+    {
+      "cardName": "Sheet weaver spider (Spirembolus redondo)",
+      "sciName": "Spirembolus redondo",
+      "reason": "no-photos"
+    },
+    {
+      "cardName": "Araneae (Tivyna moaba)",
+      "sciName": "Tivyna moaba",
+      "reason": "no-photos"
+    },
+    {
+      "cardName": "Ground spider (Urozelotes rusticus)",
+      "sciName": "Urozelotes rusticus",
+      "reason": "no fetched data"
+    },
+    {
+      "cardName": "Crab spider (Xysticus iviei)",
+      "sciName": "Xysticus iviei",
+      "reason": "no-photos"
+    },
+    {
+      "cardName": "Ground spider (Zelotes gabriel)",
+      "sciName": "Zelotes gabriel",
+      "reason": "no-photos"
+    },
+    {
+      "cardName": "Ground spider (Zelotes gynethus)",
+      "sciName": "Zelotes gynethus",
+      "reason": "no-photos"
+    },
+    {
+      "cardName": "Little Bear",
+      "sciName": "Paracotalpa ursina",
+      "reason": "no fetched data"
+    },
+    {
+      "cardName": "Minute Brown Scavenger Beetle",
+      "sciName": "Revelieria california",
+      "reason": "no-taxon"
+    },
+    {
+      "cardName": "Marsh Wren",
+      "sciName": "Cistothorus palustris",
+      "reason": "no fetched data"
+    },
+    {
+      "cardName": "Bewick's Wren",
+      "sciName": "Thryomanes bewickii",
+      "reason": "no fetched data"
+    },
+    {
+      "cardName": "House Wren",
+      "sciName": "Troglodytes aedon",
+      "reason": "no fetched data"
+    },
+    {
+      "cardName": "Blue-gray Gnatcatcher",
+      "sciName": "Polioptila caerulea",
+      "reason": "no fetched data"
+    },
+    {
+      "cardName": "California Gnatcatcher",
+      "sciName": "Polioptila californica californica",
+      "reason": "no fetched data"
+    },
+    {
+      "cardName": "Oak Titmouse",
+      "sciName": "Baeolophus inornatus",
+      "reason": "no fetched data"
+    },
+    {
+      "cardName": "Bushtit",
+      "sciName": "Psaltriparus minimus",
+      "reason": "no fetched data"
+    },
+    {
+      "cardName": "Tree Swallow",
+      "sciName": "Tachycineta bicolor",
+      "reason": "no fetched data"
+    },
+    {
+      "cardName": "Violet-green Swallow",
+      "sciName": "Tachycineta thalassina",
+      "reason": "no fetched data"
+    },
+    {
+      "cardName": "N. Rough-winged Swallow",
+      "sciName": "Stelgidopteryx serripennis",
+      "reason": "no fetched data"
+    },
+    {
+      "cardName": "Barn Swallow",
+      "sciName": "Hirundo rustica",
+      "reason": "no fetched data"
+    },
+    {
+      "cardName": "Cliff Swallow",
+      "sciName": "Petrochelidon pyrrhonota",
+      "reason": "no fetched data"
+    },
+    {
+      "cardName": "Ruby-crowned Kinglet",
+      "sciName": "Regulus calendula",
+      "reason": "no fetched data"
+    },
+    {
+      "cardName": "Wrentit",
+      "sciName": "Chamaea fasciata",
+      "reason": "no fetched data"
+    },
+    {
+      "cardName": "Horned Lark",
+      "sciName": "Eremophila alpestris",
+      "reason": "no fetched data"
+    },
+    {
+      "cardName": "American Pipit",
+      "sciName": "Anthus rubescens",
+      "reason": "no fetched data"
+    },
+    {
+      "cardName": "Pine Siskin",
+      "sciName": "Carduelis pinus",
+      "reason": "no fetched data"
+    },
+    {
+      "cardName": "American Goldfinch",
+      "sciName": "Carduelis tristis",
+      "reason": "no fetched data"
+    },
+    {
+      "cardName": "Lesser Goldfinch",
+      "sciName": "Spinus psaltria",
+      "reason": "no fetched data"
+    },
+    {
+      "cardName": "Lawrence's Goldfinch",
+      "sciName": "Carduelis lawrencei",
+      "reason": "no fetched data"
+    },
+    {
+      "cardName": "Purple Finch",
+      "sciName": "Carpodacus purpureus",
+      "reason": "no fetched data"
+    },
+    {
+      "cardName": "House Finch",
+      "sciName": "Haemorhous mexicanus",
+      "reason": "no fetched data"
+    },
+    {
+      "cardName": "Red Crossbill",
+      "sciName": "Loxia curvirostra",
+      "reason": "no fetched data"
+    },
+    {
+      "cardName": "Fox Sparrow",
+      "sciName": "Passerella iliaca",
+      "reason": "no fetched data"
+    },
+    {
+      "cardName": "Song Sparrow",
+      "sciName": "Melospiza melodia",
+      "reason": "no fetched data"
+    },
+    {
+      "cardName": "Lincoln's Sparrow",
+      "sciName": "Melospiza lincolnii",
+      "reason": "no fetched data"
+    },
+    {
+      "cardName": "White-crowned Sparrow",
+      "sciName": "Zonotrichia leucophrys",
+      "reason": "no fetched data"
+    },
+    {
+      "cardName": "Golden-crowned Sparrow",
+      "sciName": "Zonotrichia atricapilla",
+      "reason": "no fetched data"
+    },
+    {
+      "cardName": "Dark-eyed Junco",
+      "sciName": "Junco hyemalis",
+      "reason": "no fetched data"
+    },
+    {
+      "cardName": "Savannah Sparrow",
+      "sciName": "Passerculus sandwichensis",
+      "reason": "no fetched data"
+    },
+    {
+      "cardName": "Grasshopper Sparrow",
+      "sciName": "Ammodramus savannarum",
+      "reason": "no fetched data"
+    },
+    {
+      "cardName": "Chipping Sparrow",
+      "sciName": "Spizella passerina",
+      "reason": "no fetched data"
+    },
+    {
+      "cardName": "Brewer's Sparrow",
+      "sciName": "Spizella breweri",
+      "reason": "no fetched data"
+    },
+    {
+      "cardName": "Black-chinned Sparrow",
+      "sciName": "Spizella atrogularis",
+      "reason": "no fetched data"
+    },
+    {
+      "cardName": "Vesper Sparrow",
+      "sciName": "Pooecetes gramineus",
+      "reason": "no fetched data"
+    },
+    {
+      "cardName": "Lark Sparrow",
+      "sciName": "Chondestes grammacus",
+      "reason": "no fetched data"
+    },
+    {
+      "cardName": "Black-throated Sparrow",
+      "sciName": "Amphispiza bilineata",
+      "reason": "no fetched data"
+    },
+    {
+      "cardName": "Sage Sparrow",
+      "sciName": "Amphispiza belli",
+      "reason": "no fetched data"
+    },
+    {
+      "cardName": "Rufous-crowned Sparrow",
+      "sciName": "Aimophila ruficeps",
+      "reason": "no fetched data"
+    },
+    {
+      "cardName": "Green-tailed Towhee",
+      "sciName": "Pipilo chlorurus",
+      "reason": "no fetched data"
+    },
+    {
+      "cardName": "Spotted Towhee",
+      "sciName": "Pipilo maculatus",
+      "reason": "no fetched data"
+    },
+    {
+      "cardName": "California Towhee",
+      "sciName": "Melozone crissalis",
+      "reason": "no fetched data"
+    },
+    {
+      "cardName": "Orange-crowned Warbler",
+      "sciName": "Leiothlypis celata",
+      "reason": "no fetched data"
+    },
+    {
+      "cardName": "Nashville Warbler",
+      "sciName": "Vermivora ruficapilla",
+      "reason": "no fetched data"
+    },
+    {
+      "cardName": "Yellow Warbler",
+      "sciName": "Dendroica petechia",
+      "reason": "no fetched data"
+    },
+    {
+      "cardName": "Yellow-rumped Warbler",
+      "sciName": "Setophaga coronata",
+      "reason": "no fetched data"
+    },
+    {
+      "cardName": "Black-throated Gray Warbler",
+      "sciName": "Dendroica nigrescens",
+      "reason": "no fetched data"
+    },
+    {
+      "cardName": "Townsend's Warbler",
+      "sciName": "Dendroica townsendi",
+      "reason": "no fetched data"
+    },
+    {
+      "cardName": "Hermit Warbler",
+      "sciName": "Dendroica occidentalis",
+      "reason": "no fetched data"
+    },
+    {
+      "cardName": "Black-and-white Warbler",
+      "sciName": "Mniotilta varia",
+      "reason": "no fetched data"
+    },
+    {
+      "cardName": "Northern Waterthrush",
+      "sciName": "Seiurus noveboracensis",
+      "reason": "no fetched data"
+    },
+    {
+      "cardName": "Macgillivray's Warbler",
+      "sciName": "Oporornis tolmiei",
+      "reason": "no fetched data"
+    },
+    {
+      "cardName": "Common Yellowthroat",
+      "sciName": "Geothlypis trichas",
+      "reason": "no fetched data"
+    },
+    {
+      "cardName": "Wilson's Warbler",
+      "sciName": "Wilsonia pusilla",
+      "reason": "no fetched data"
+    },
+    {
+      "cardName": "Yellow-breasted Chat",
+      "sciName": "Icteria virens",
+      "reason": "no fetched data"
+    },
+    {
+      "cardName": "Summer Tanager",
+      "sciName": "Piranga rubra",
+      "reason": "no fetched data"
+    },
+    {
+      "cardName": "Western Tanager",
+      "sciName": "Piranga ludoviciana",
+      "reason": "no fetched data"
+    },
+    {
+      "cardName": "Black-headed Grosbeak",
+      "sciName": "Pheucticus melanocephalus",
+      "reason": "no fetched data"
+    },
+    {
+      "cardName": "Blue Grosbeak",
+      "sciName": "Passerina caerulea",
+      "reason": "no fetched data"
+    },
+    {
+      "cardName": "Indigo Bunting",
+      "sciName": "Passerina cyanea",
+      "reason": "no fetched data"
+    },
+    {
+      "cardName": "Lazuli Bunting",
+      "sciName": "Passerina amoena",
+      "reason": "no fetched data"
+    },
+    {
+      "cardName": "Hooded Oriole",
+      "sciName": "Icterus cucullatus",
+      "reason": "no fetched data"
+    },
+    {
+      "cardName": "Bullock's Oriole",
+      "sciName": "Icterus bullockii",
+      "reason": "no fetched data"
+    },
+    {
+      "cardName": "Red-winged Blackbird",
+      "sciName": "Agelaius phoeniceus",
+      "reason": "no fetched data"
+    },
+    {
+      "cardName": "Tricolored Blackbird",
+      "sciName": "Agelaius tricolor",
+      "reason": "no fetched data"
+    },
+    {
+      "cardName": "Western Meadowlark",
+      "sciName": "Sturnella neglecta",
+      "reason": "no fetched data"
+    },
+    {
+      "cardName": "Great-tailed Grackle",
+      "sciName": "Quiscalus mexicanus",
+      "reason": "no fetched data"
+    },
+    {
+      "cardName": "Brewer's Blackbird",
+      "sciName": "Euphagus cyanocephalus",
+      "reason": "no fetched data"
+    },
+    {
+      "cardName": "Brown-headed Cowbird",
+      "sciName": "Molothrus ater",
+      "reason": "no fetched data"
+    },
+    {
+      "cardName": "Scaly-breasted Munia",
+      "sciName": "Lonchura punctulata",
+      "reason": "no fetched data"
+    },
+    {
+      "cardName": "Red-masked Parakeet",
+      "sciName": "Aratinga erythrogenys",
+      "reason": "no fetched data"
+    },
+    {
+      "cardName": "Swinhoe's White-eye",
+      "sciName": "Zosterops simplex",
+      "reason": "no fetched data"
+    },
+    {
+      "cardName": "House Sparrow",
+      "sciName": "Passer domesticus",
+      "reason": "no fetched data"
+    },
+    {
+      "cardName": "European Starling",
+      "sciName": "Sturnus vulgaris",
+      "reason": "no fetched data"
+    },
+    {
+      "cardName": "Big-eared Woodrat",
+      "sciName": "Neotoma macrotis",
+      "reason": "no fetched data"
+    },
+    {
+      "cardName": "Bobcat",
+      "sciName": "Lynx rufus",
+      "reason": "no fetched data"
+    },
+    {
+      "cardName": "Brush Rabbit",
+      "sciName": "Sylvilagus bachmani",
+      "reason": "no fetched data"
+    },
+    {
+      "cardName": "Bryant's Woodrat",
+      "sciName": "Neotoma bryanti",
+      "reason": "no fetched data"
+    },
+    {
+      "cardName": "Cactus Mouse",
+      "sciName": "Peromyscus eremicus",
+      "reason": "no fetched data"
+    },
+    {
+      "cardName": "California Ground Squirrel",
+      "sciName": "Otospermophilus beecheyi",
+      "reason": "no fetched data"
+    },
+    {
+      "cardName": "California Mouse",
+      "sciName": "Peromyscus californicus",
+      "reason": "no fetched data"
+    },
+    {
+      "cardName": "California Pocket Mouse",
+      "sciName": "Chaetodipus fallax fallax",
+      "reason": "no fetched data"
+    },
+    {
+      "cardName": "California Vole",
+      "sciName": "Microtus californicus",
+      "reason": "no fetched data"
+    },
+    {
+      "cardName": "Botta's Pocket Gopher",
+      "sciName": "Thomomys bottae",
+      "reason": "no fetched data"
+    },
+    {
+      "cardName": "San Diego Black-tailed Jackrabbit",
+      "sciName": "Lepus californicus bennettii",
+      "reason": "no fetched data"
+    },
+    {
+      "cardName": "Coyote",
+      "sciName": "Canis latrans",
+      "reason": "no fetched data"
+    },
+    {
+      "cardName": "Desert Cottontail",
+      "sciName": "Sylvilagus audubonii",
+      "reason": "no fetched data"
+    },
+    {
+      "cardName": "Domestic Cat",
+      "sciName": "Felis catus",
+      "reason": "no fetched data"
+    },
+    {
+      "cardName": "Dulzura Pocket Mouse",
+      "sciName": "Chaetodipus californicus femoralis",
+      "reason": "no fetched data"
+    },
+    {
+      "cardName": "Dulzura Kangaroo Rat",
+      "sciName": "Dipodomys simulans",
+      "reason": "no fetched data"
+    },
+    {
+      "cardName": "Eastern Fox Squirrel",
+      "sciName": "Sciurus niger",
+      "reason": "no fetched data"
+    },
+    {
+      "cardName": "Grey Fox",
+      "sciName": "Urocyon cinereoargenteus",
+      "reason": "no fetched data"
+    },
+    {
+      "cardName": "House Mouse",
+      "sciName": "Mus musculus",
+      "reason": "no fetched data"
+    },
+    {
+      "cardName": "Black Rat",
+      "sciName": "Rattus rattus",
+      "reason": "no fetched data"
+    },
+    {
+      "cardName": "Mule Deer",
+      "sciName": "Odocoileus hemionus",
+      "reason": "no fetched data"
+    },
+    {
+      "cardName": "North American Deer Mouse",
+      "sciName": "Peromyscus maniculatus",
+      "reason": "no fetched data"
+    },
+    {
+      "cardName": "Puma",
+      "sciName": "Puma concolor",
+      "reason": "no fetched data"
+    },
+    {
+      "cardName": "Raccoon",
+      "sciName": "Procyon lotor",
+      "reason": "no fetched data"
+    },
+    {
+      "cardName": "Striped Skunk",
+      "sciName": "Mephitis mephitis",
+      "reason": "no fetched data"
+    },
+    {
+      "cardName": "Virginia Opossum",
+      "sciName": "Didelphis virginiana",
+      "reason": "no fetched data"
+    },
+    {
+      "cardName": "Western Harvest Mouse",
+      "sciName": "Reithrodontomys megalotis",
+      "reason": "no fetched data"
+    },
+    {
+      "cardName": "Western Spotted Skunk",
+      "sciName": "Spilogale gracilis",
+      "reason": "no fetched data"
+    },
+    {
+      "cardName": "Mexican Free-tailed Bat",
+      "sciName": "Tadarida brasiliensis",
+      "reason": "no fetched data"
+    },
+    {
+      "cardName": "Western Red Bat",
+      "sciName": "Lasiurus frantzii",
+      "reason": "no fetched data"
+    },
+    {
+      "cardName": "Yuma Myotis",
+      "sciName": "Myotis yumanensis",
+      "reason": "no fetched data"
+    },
+    {
+      "cardName": "Canyon Bat",
+      "sciName": "Parastrellus hesperus",
+      "reason": "no fetched data"
+    },
+    {
+      "cardName": "Hoary Bat",
+      "sciName": "Lasiurus cinereus",
+      "reason": "no fetched data"
+    },
+    {
+      "cardName": "Big Brown Bat",
+      "sciName": "Eptesicus fuscus",
+      "reason": "no fetched data"
+    },
+    {
+      "cardName": "California Myotis",
+      "sciName": "Myotis californicus",
+      "reason": "no fetched data"
+    },
+    {
+      "cardName": "Western Yellow Bat",
+      "sciName": "Lasiurus xanthinus",
+      "reason": "no fetched data"
+    },
+    {
+      "cardName": "Western Small-Footed Myotis",
+      "sciName": "Myotis ciliolabrum",
+      "reason": "no fetched data"
+    },
+    {
+      "cardName": "Pocketed Free-Tailed Bat",
+      "sciName": "Nyctinomops femorosaccus",
+      "reason": "no fetched data"
+    },
+    {
+      "cardName": "Big Free-Tailed Bat",
+      "sciName": "Nyctinomops macrotis",
+      "reason": "no fetched data"
+    },
+    {
+      "cardName": "Slider",
+      "sciName": "Trachemys scripta",
+      "reason": "no fetched data"
+    },
+    {
+      "cardName": "Western Threadsnake",
+      "sciName": "Rena humilis",
+      "reason": "no fetched data"
+    }
+  ]
+}
