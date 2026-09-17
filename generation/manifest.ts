@@ -1,7 +1,7 @@
 import fs from "node:fs";
 import path from "node:path";
 import { dataDir, rawDir, repoRoot } from "./lib/config.ts";
-import { slugify } from "./fetch.ts";
+import { slugify, displaySciName } from "./fetch.ts";
 import type { SpeciesRow } from "./parse.ts";
 
 /**
@@ -52,6 +52,8 @@ export interface HealthyCard {
   back: string;
   sciName: string;
   commonName: string;
+  /** Alternate common names from the survey spreadsheets. */
+  altNames?: string[];
   familyCommon: string | null;
   familyLatin: string | null;
   native: "native" | "non-native" | "unknown";
@@ -131,8 +133,9 @@ export function buildManifest(): {
       name: row.cardName,
       front: `${fileBase} Front.jpg`,
       back: `${fileBase} Back.jpg`,
-      sciName: taxon?.iNatName ?? row.sciName,
+      sciName: displaySciName(row, taxon),
       commonName: row.commonName,
+      altNames: row.altNames.length ? row.altNames : undefined,
       familyCommon,
       familyLatin:
         row.kind === "plant" ? row.family || taxon?.familyName || null : taxon?.familyName ?? null,

@@ -6,7 +6,7 @@ import { decompress } from "wawoff2";
 import { Resvg } from "@resvg/resvg-js";
 import { repoRoot, rawDir, dataDir, outDir } from "./lib/config.ts";
 import { InatClient, isBreakerOpen } from "./lib/inat.ts";
-import { slugify } from "./fetch.ts";
+import { slugify, displaySciName } from "./fetch.ts";
 import type { SpeciesRow } from "./parse.ts";
 
 /**
@@ -30,6 +30,8 @@ const RADIUS = 14;
 // Back layout (text baselines), measured from the scanned backs.
 const TITLE_BASELINE = 326;
 const SCI_BASELINE = 382;
+const ALT_NAMES_BASELINE = 368;
+const SCI_BASELINE_WITH_ALT_NAMES = 424;
 const FAMILY_BASELINE = 516;
 const FAMILY_LATIN_BASELINE = 576;
 const STATUS_BASELINE = 709;
@@ -92,6 +94,7 @@ function fitSize(text: string, size: number, maxWidth: number, weight: number): 
 interface BackOptions {
   title: string;
   sciName: string;
+  altNames?: string[];
   familyCommon: string | null;
   familyLatin: string | null;
   native: string;
@@ -136,8 +139,14 @@ function creditOverlaySvg(photos: FrontPhoto[]): string {
 function backSvg(o: BackOptions): string {
   const esc = escapeXml;
   const lines: string[] = [];
+  const altNames = (o.altNames ?? []).filter(Boolean);
+  const altLine = altNames.length ? `aka ${altNames.join(" · ")}` : null;
+  const sciBaseline = altLine ? SCI_BASELINE_WITH_ALT_NAMES : SCI_BASELINE;
   lines.push(`<text x="375" y="${TITLE_BASELINE}" font-family="Inter" font-weight="700" font-size="${fitSize(o.title, 72, 640, 700)}" fill="${INK}" text-anchor="middle">${esc(o.title)}</text>`);
-  lines.push(`<text x="375" y="${SCI_BASELINE}" font-family="Inter" font-style="italic" font-size="${fitSize(o.sciName, 38, 640, 400)}" fill="${INK}" text-anchor="middle">${esc(o.sciName)}</text>`);
+  if (altLine) {
+    lines.push(`<text x="375" y="${ALT_NAMES_BASELINE}" font-family="Inter" font-style="italic" font-size="${fitSize(altLine, 26, 640, 400)}" fill="${GRAY}" text-anchor="middle">${esc(altLine)}</text>`);
+  }
+  lines.push(`<text x="375" y="${sciBaseline}" font-family="Inter" font-style="italic" font-size="${fitSize(o.sciName, 38, 640, 400)}" fill="${INK}" text-anchor="middle">${esc(o.sciName)}</text>`);
   if (o.familyCommon) {
     lines.push(`<text x="375" y="${FAMILY_BASELINE}" font-family="Inter" font-size="${fitSize(o.familyCommon, 44, 640, 400)}" fill="${INK}" text-anchor="middle">${esc(o.familyCommon)}</text>`);
   }
@@ -339,7 +348,7 @@ export async function renderAll(): Promise<RenderReport> {
         })), fonts, `${base} Front.jpg`);
 
         const taxon = meta.taxon;
-        const sciName = taxon?.iNatName ?? row.sciName;
+        const sciName = displaySciName(row, taxon);
         let familyLatin: string | null = null;
         let familyCommon: string | null = null;
         if (row.kind === "plant") {
@@ -354,6 +363,7 @@ export async function renderAll(): Promise<RenderReport> {
         await renderBack(fonts, {
           title: row.cardName,
           sciName,
+          altNames: row.altNames.length ? row.altNames : undefined,
           familyCommon,
           familyLatin,
           native: status.native,

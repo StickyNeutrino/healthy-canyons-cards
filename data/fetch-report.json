@@ -1,13 +1,18 @@
 {
-  "generatedAt": "2026-09-17T06:53:24.033Z",
+  "generatedAt": "2026-09-17T16:26:25.860Z",
   "total": 1230,
   "counts": {
-    "ok": 1207,
-    "no-taxon": 11,
-    "no-photos": 12,
+    "ok": 1203,
+    "no-taxon": 14,
+    "no-photos": 13,
     "skipped": 0
   },
   "failures": [
+    {
+      "cardName": "Crocea Iceplant",
+      "sciName": "Malephora crocea var. crocea",
+      "status": "no-taxon"
+    },
     {
       "cardName": "Western Prickly-Pear",
       "sciName": "Opuntia xoccidentalis",
@@ -27,6 +32,11 @@
       "cardName": "Cholla",
       "sciName": "Cylindropuntia sp. nov.",
       "status": "no-taxon"
+    },
+    {
+      "cardName": "Western Tansy-Mustard (Descurainia pinnata ssp. halictorum)",
+      "sciName": "Descurainia pinnata ssp. halictorum",
+      "status": "no-photos"
     },
     {
       "cardName": "Hybrid Ryegrass",
@@ -49,13 +59,28 @@
       "status": "no-taxon"
     },
     {
+      "cardName": "Purple Malephora",
+      "sciName": "Malephora crocea var. purpureocrocea",
+      "status": "no-taxon"
+    },
+    {
       "cardName": "NULL (Cyperus erythrorrhizos)",
       "sciName": "Cyperus erythrorrhizos",
       "status": "no-taxon"
     },
     {
+      "cardName": "Coffee Fern",
+      "sciName": "Pellaea andromedifolia var. andromedifolia",
+      "status": "no-taxon"
+    },
+    {
       "cardName": "Ground spider (Drassyllus proclesis)",
       "sciName": "Drassyllus proclesis",
+      "status": "no-photos"
+    },
+    {
+      "cardName": "Ground spider (Drassyllus saphes)",
+      "sciName": "Drassyllus saphes",
       "status": "no-photos"
     },
     {
@@ -86,11 +111,6 @@
     {
       "cardName": "Araneae (Tivyna moaba)",
       "sciName": "Tivyna moaba",
-      "status": "no-photos"
-    },
-    {
-      "cardName": "Ground spider (Drassyllus saphes)",
-      "sciName": "Drassyllus saphes",
       "status": "no-photos"
     },
     {

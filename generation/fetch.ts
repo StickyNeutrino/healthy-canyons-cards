@@ -82,25 +82,54 @@ async function resolvePlaceByName(q: string, adminLevel: number): Promise<number
   return matches.find((p) => p.name.toLowerCase() === q.toLowerCase())?.id ?? matches[0]?.id;
 }
 
+/**
+ * Rank markers used inside spreadsheet scientific names ("Prunus ilicifolia
+ * ssp. lyonii"). iNaturalist taxon names omit them ("Prunus ilicifolia lyonii"),
+ * so they must be stripped before matching names against the API.
+ */
+const RANK_MARKER = /^(ssp|subsp|var|f|forma)\.?$/i;
+
+function stripRankMarkers(query: string): string {
+  return query
+    .toLowerCase()
+    .replace(/\s+/g, " ")
+    .trim()
+    .split(" ")
+    .filter((w) => !RANK_MARKER.test(w))
+    .join(" ");
+}
+
+/** True when the (already stripped) query names an infraspecific taxon. */
+function isInfraspecificQuery(stripped: string): boolean {
+  return stripped.split(" ").length > 2;
+}
+
 /** Pick the best active taxon for a scientific name query. */
 export function chooseTaxon(results: InatTaxon[], query: string): InatTaxon | null {
-  const q = query.toLowerCase().replace(/\s+/g, " ").trim();
+  const q = stripRankMarkers(query);
   const words = q.split(" ");
   const active = results.filter((t) => t.is_active);
   // "exact" includes iNat's synonym matches: querying an inactive name returns
   // the active replacement with matched_term set to the queried name.
   const exact = active.filter(
-    (t) => t.name.toLowerCase() === q || (t.matched_term ?? "").toLowerCase() === q,
+    (t) =>
+      t.name.toLowerCase() === q ||
+      (t.matched_term ?? "").toLowerCase().replace(/\s+/g, " ").trim() ===
+        query.toLowerCase().replace(/\s+/g, " ").trim(),
   );
   if (exact.length) {
     // Binomial queries prefer species-rank matches (over e.g. "complexes");
-    // infraspecific queries (4+ words) match their exact infraspecific taxon.
+    // infraspecific queries (3+ words after stripping rank markers) match
+    // their exact infraspecific taxon.
     const desiredLevel = words.length > 2 ? 5 : 10;
     exact.sort((a, b) =>
       Math.abs((a.rank_level ?? 0) - desiredLevel) - Math.abs((b.rank_level ?? 0) - desiredLevel) ||
       (b.observations_count ?? 0) - (a.observations_count ?? 0));
     return exact[0];
   }
+  // Infraspecific queries never fall back below the exact taxon: photos of a
+  // different subspecies are worse than no photos at all.
+  if (words.length > 2) return null;
   // Synonym resolution: iNat returns the active replacement (e.g. Dendroica → Setophaga).
   const synonymMatches = active.filter((t) => {
     const parts = t.name.toLowerCase().split(" ");
@@ -119,10 +148,37 @@ export function slugify(name: string): string {
   return name.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-+|-+$/g, "");
 }
 
-async function resolveTaxon(client: InatClient, query: string): Promise<TaxonInfo | null> {
-  const attempts = [query];
-  const words = query.trim().split(/\s+/);
-  if (words.length > 2) attempts.push(words.slice(0, 2).join(" ")); // fall back to the species
+/**
+ * Scientific name for the card back: the iNat-resolved name, with the
+ * spreadsheet's rank marker ("ssp."/"var."/"f.") re-inserted before the
+ * infraspecific epithet, since iNat's bare name omits it.
+ */
+export function displaySciName(row: SpeciesRow, taxon?: { iNatName: string } | null): string {
+  const name = taxon?.iNatName ?? row.sciName;
+  const infra = row.kind === "plant" ? row.infraName : "";
+  const infraRank = row.kind === "plant" ? row.infraRank : "";
+  if (!infra) return name;
+  if (!name.toLowerCase().endsWith(infra.toLowerCase())) {
+    // Resolved to the species or an unrelated name — keep the spreadsheet's
+    // full name, which carries the marker.
+    return row.sciName;
+  }
+  const stem = name.slice(0, name.length - infra.length).trim();
+  if (RANK_MARKER.test(stem.split(" ").pop() ?? "")) return name; // marker already present
+  return `${stem} ${infraRank} ${infra}`.replace(/\s+/g, " ");
+}
+
+async function resolveTaxon(client: InatClient, row: SpeciesRow): Promise<TaxonInfo | null> {
+  // Search with the marker-stripped name: iNat autocomplete does not match
+  // queries containing "ssp."/"var." markers.
+  const stripped = stripRankMarkers(row.sciName);
+  const attempts = [stripped];
+  // Fall back to the species only for binomial queries: for infraspecific
+  // taxa, species photos would show the wrong subspecies, so an infraspecific
+  // query that iNat can't resolve exactly must stay unresolved.
+  if (!isInfraspecificQuery(stripped) && row.sciName.trim().split(/\s+/).length > 2) {
+    attempts.push(stripped.split(" ").slice(0, 2).join(" "));
+  }
   for (const attempt of attempts) {
     const results = await client.autocompleteTaxon(attempt);
     const chosen = chooseTaxon(results, attempt);
@@ -228,7 +284,7 @@ export async function fetchTaxon(client: InatClient, row: SpeciesRow): Promise<F
   }
   fs.mkdirSync(dir, { recursive: true });
 
-  const resolution = await resolveTaxon(client, row.sciName);
+  const resolution = await resolveTaxon(client, row);
   if (!resolution) {
     const meta: FetchMeta = { status: "no-taxon", queryName: row.sciName, cardName: row.cardName, photos: [] };
     fs.writeFileSync(metaFile, JSON.stringify(meta, null, 2));

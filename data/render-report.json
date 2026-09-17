@@ -1,12 +1,17 @@
 {
-  "generatedAt": "2026-09-17T06:59:00.741Z",
+  "generatedAt": "2026-09-17T16:26:25.948Z",
   "counts": {
-    "rendered": 1207,
-    "skipped": 23,
+    "rendered": 1203,
+    "skipped": 27,
     "partialPhotos": 0,
     "errors": 0
   },
   "skipped": [
+    {
+      "cardName": "Crocea Iceplant",
+      "sciName": "Malephora crocea var. crocea",
+      "reason": "no-taxon"
+    },
     {
       "cardName": "Western Prickly-Pear",
       "sciName": "Opuntia xoccidentalis",
@@ -26,6 +31,11 @@
       "cardName": "Cholla",
       "sciName": "Cylindropuntia sp. nov.",
       "reason": "no-taxon"
+    },
+    {
+      "cardName": "Western Tansy-Mustard (Descurainia pinnata ssp. halictorum)",
+      "sciName": "Descurainia pinnata ssp. halictorum",
+      "reason": "no-photos"
     },
     {
       "cardName": "Hybrid Ryegrass",
@@ -48,8 +58,18 @@
       "reason": "no-taxon"
     },
     {
+      "cardName": "Purple Malephora",
+      "sciName": "Malephora crocea var. purpureocrocea",
+      "reason": "no-taxon"
+    },
+    {
       "cardName": "NULL (Cyperus erythrorrhizos)",
       "sciName": "Cyperus erythrorrhizos",
+      "reason": "no-taxon"
+    },
+    {
+      "cardName": "Coffee Fern",
+      "sciName": "Pellaea andromedifolia var. andromedifolia",
       "reason": "no-taxon"
     },
     {

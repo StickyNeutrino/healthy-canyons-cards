@@ -21,6 +21,8 @@ export interface PlantTaxon {
   infraName: string;
   family: string;
   commonName: string;
+  /** Alternate common names from the spreadsheets (e.g. "Toyon, Christmas Berry"). */
+  altNames: string[];
   native: NativeStatus;
   ranks: { cnps?: string; grank?: string; srank?: string; cesa?: string; fesa?: string };
   canyons: string[];
@@ -31,6 +33,7 @@ export interface AnimalTaxon {
   cardName: string;
   sciName: string;
   commonName: string;
+  altNames: string[];
   group: string; // Invertebrates | Birds | Mammals | Reptiles & Amphibians
   category: string;
   native: NativeStatus;
@@ -51,6 +54,29 @@ export interface SpeciesData {
 
 const clean = (s: unknown): string => String(s ?? "").replace(/\s+/g, " ").trim();
 const normSci = (s: string): string => clean(s).toLowerCase();
+
+/**
+ * Spreadsheets pack multiple common names into one cell ("Toyon, Christmas
+ * Berry"). The first is the primary name; the rest are alternates.
+ */
+function splitCommonNames(raw: string): { primary: string; altNames: string[] } {
+  const names = clean(raw).split(",").map((s) => s.trim()).filter(Boolean);
+  return { primary: names[0] ?? "", altNames: names.slice(1) };
+}
+
+/** Merge a row's common names into a taxon, preserving first-seen primacy. */
+function mergeCommonNames(t: { commonName: string; altNames: string[] }, raw: string): void {
+  const { primary, altNames } = splitCommonNames(raw);
+  if (!primary) return;
+  if (!t.commonName) {
+    t.commonName = primary;
+  } else if (primary !== t.commonName && !t.altNames.includes(primary)) {
+    t.altNames.push(primary);
+  }
+  for (const alt of altNames) {
+    if (alt !== t.commonName && !t.altNames.includes(alt)) t.altNames.push(alt);
+  }
+}
 
 /**
  * Plant sheets have per-sheet column drift: most sheets start the taxonomy at
@@ -160,10 +186,10 @@ function parsePlants(): {
       const key = normSci(sci);
       const t: PlantTaxon = taxa.get(key) ?? {
         kind: "plant", cardName: "", sciName: sci, genus, species, infraRank: infraRank || "",
-        infraName: infraName || "", family: family || "", commonName: "", native: "unknown",
-        ranks: {}, canyons: [],
+        infraName: infraName || "", family: family || "", commonName: "", altNames: [],
+        native: "unknown", ranks: {}, canyons: [],
       };
-      if (!t.commonName && commonName) t.commonName = commonName;
+      mergeCommonNames(t, commonName);
       if (!t.family && family) t.family = family;
       t.native = mergeNative([t.native, native === "1" ? "native" : native === "0" ? "non-native" : "unknown"]);
       t.ranks = {
@@ -221,13 +247,13 @@ function parseAnimals(): { taxa: Map<string, AnimalTaxon>; rowsRead: number } {
         // (e.g. "Agyneta" #1 vs #2) don't get merged away.
         const phKey = key + "|" + normSci(common);
         const ph = taxa.get(phKey) ?? {
-          kind: "animal" as const, sciName: sci, commonName: common,
+          kind: "animal" as const, sciName: sci, commonName: "", altNames: [] as string[],
           group: GROUP_FIX[group] || inferGroup(category || ""), category: category || "",
           native: "unknown" as NativeStatus, listings: {}, canyons: [] as string[],
           cardName: "", excluded: reason,
         };
-        if (!ph.category && category) ph.category = category;
-        if (group && GROUP_FIX[group]) ph.group = GROUP_FIX[group];
+        mergeCommonNames(ph, common);
+        if (!ph.category && category) ph.category = category;        if (group && GROUP_FIX[group]) ph.group = GROUP_FIX[group];
         if (federal && federal !== "0" && federal !== "None" && !ph.listings.federal) ph.listings.federal = federal;
         if (state && state !== "0" && state !== "None" && !ph.listings.state) ph.listings.state = state;
         if (canyon && !ph.canyons.includes(canyon)) ph.canyons.push(canyon);
@@ -235,10 +261,10 @@ function parseAnimals(): { taxa: Map<string, AnimalTaxon>; rowsRead: number } {
         continue;
       }
       const t: AnimalTaxon = taxa.get(key) ?? {
-        kind: "animal", sciName: sci, commonName: "", group: "", category: "",
+        kind: "animal", sciName: sci, commonName: "", altNames: [], group: "", category: "",
         native: "unknown", listings: {}, canyons: [], cardName: "",
       };
-      if (!t.commonName || isKey) t.commonName = common;
+      mergeCommonNames(t, common);
       if (!t.category && category) t.category = category;
       if (group && GROUP_FIX[group]) {
         t.group = GROUP_FIX[group];
