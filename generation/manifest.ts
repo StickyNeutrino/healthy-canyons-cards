@@ -5,10 +5,12 @@ import { slugify, displaySciName } from "./fetch.ts";
 import type { SpeciesRow } from "./parse.ts";
 
 /**
- * Stage 4: emit this deck repository's manifest.json (portable card metadata:
- * bare filenames, category structure, status and photo credits) plus the
- * human-readable generation report. The app repository's sync script resolves
- * these into served URLs.
+ * Stage 4 (legacy image deck): emit this deck repository's manifest.json
+ * (portable card metadata: cards/-prefixed filenames, category structure,
+ * status and photo credits) plus the human-readable generation report. The
+ * app repository's sync script resolves these into served URLs. Paths are
+ * deck-root-relative ("cards/Name Front.jpg") — the deck-repo contract the
+ * sync script's URL resolution expects.
  */
 
 interface PhotoMeta {
@@ -131,8 +133,8 @@ export function buildManifest(): {
       taxon && taxon.familyId !== null ? (familyNames.get(taxon.familyId) ?? null) : null;
     const card: HealthyCard = {
       name: row.cardName,
-      front: `${fileBase} Front.jpg`,
-      back: `${fileBase} Back.jpg`,
+      front: `cards/${fileBase} Front.jpg`,
+      back: `cards/${fileBase} Back.jpg`,
       sciName: displaySciName(row, taxon),
       commonName: row.commonName,
       altNames: row.altNames.length ? row.altNames : undefined,
